@@ -2,6 +2,7 @@ class Solution {
     public int fib(int n) {
         int a=-1,b=1,c=0;
         for(int i=0;i<=n;i++){
+            c=0;
             c=a+b;
             a=b;
             b=c;
